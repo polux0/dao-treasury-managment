@@ -1,0 +1,677 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/alexus/Desktop/development/ethereum/hardhat_config/contracts/Greeter.sol": {
+      "lastModificationDate": 1622763570921,
+      "contentHash": "8e4b943890d396929e7d2875c8d47222",
+      "sourceName": "contracts/Greeter.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Greeter"
+      ]
+    },
+    "/home/alexus/Desktop/development/ethereum/hardhat_config/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1622759713754,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/home/alexus/Desktop/development/ethereum/dao-treasury-managment/contracts/Treasury.sol": {
+      "lastModificationDate": 1624582000043,
+      "contentHash": "3375769a2cebf7423a9d2fa2aaabde97",
+      "sourceName": "contracts/Treasury.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@aave/protocol-v2/contracts/interfaces/ILendingPoolAddressesProviderRegistry.sol",
+        "@aave/protocol-v2/contracts/interfaces/ILendingPoolAddressesProvider.sol",
+        "@aave/protocol-v2/contracts/interfaces/ILendingPool.sol",
+        "./interfaces/IWETH.sol",
+        "@aave/protocol-v2/contracts/misc/interfaces/IWETHGateway.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "Treasury"
+      ]
+    },
+    "/home/alexus/Desktop/development/ethereum/dao-treasury-managment/node_modules/@aave/protocol-v2/contracts/interfaces/ILendingPool.sol": {
+      "lastModificationDate": 1624576755175,
+      "contentHash": "c9d32b9924ef08162c2453bcb64c569a",
+      "sourceName": "@aave/protocol-v2/contracts/interfaces/ILendingPool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ILendingPoolAddressesProvider.sol",
+        "../protocol/libraries/types/DataTypes.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ILendingPool"
+      ]
+    },
+    "/home/alexus/Desktop/development/ethereum/dao-treasury-managment/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1624576752539,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/home/alexus/Desktop/development/ethereum/dao-treasury-managment/node_modules/@aave/protocol-v2/contracts/interfaces/ILendingPoolAddressesProvider.sol": {
+      "lastModificationDate": 1624576755175,
+      "contentHash": "a487bfd067ce6e71ddc7e9cc91302bae",
+      "sourceName": "@aave/protocol-v2/contracts/interfaces/ILendingPoolAddressesProvider.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ILendingPoolAddressesProvider"
+      ]
+    },
+    "/home/alexus/Desktop/development/ethereum/dao-treasury-managment/node_modules/@aave/protocol-v2/contracts/protocol/libraries/types/DataTypes.sol": {
+      "lastModificationDate": 1624576755163,
+      "contentHash": "2127b8d36674faba96bc703f72164a1a",
+      "sourceName": "@aave/protocol-v2/contracts/protocol/libraries/types/DataTypes.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "DataTypes"
+      ]
+    },
+    "/home/alexus/Desktop/development/ethereum/dao-treasury-managment/node_modules/@aave/protocol-v2/contracts/protocol/configuration/LendingPoolAddressesProviderRegistry.sol": {
+      "lastModificationDate": 1623276336999,
+      "contentHash": "15a1e88b6cd45ae8e6d6bac72f9e87be",
+      "sourceName": "@aave/protocol-v2/contracts/protocol/configuration/LendingPoolAddressesProviderRegistry.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../dependencies/openzeppelin/contracts/Ownable.sol",
+        "../../interfaces/ILendingPoolAddressesProviderRegistry.sol",
+        "../libraries/helpers/Errors.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "LendingPoolAddressesProviderRegistry"
+      ]
+    },
+    "/home/alexus/Desktop/development/ethereum/dao-treasury-managment/node_modules/@aave/protocol-v2/contracts/interfaces/ILendingPoolAddressesProviderRegistry.sol": {
+      "lastModificationDate": 1624576755175,
+      "contentHash": "249239470e9a5ff454bf3c1aa2f5bfd3",
+      "sourceName": "@aave/protocol-v2/contracts/interfaces/ILendingPoolAddressesProviderRegistry.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ILendingPoolAddressesProviderRegistry"
+      ]
+    },
+    "/home/alexus/Desktop/development/ethereum/dao-treasury-managment/node_modules/@aave/protocol-v2/contracts/dependencies/openzeppelin/contracts/Ownable.sol": {
+      "lastModificationDate": 1623276337003,
+      "contentHash": "42b1116808efc7ee5bd735beefb0c3a0",
+      "sourceName": "@aave/protocol-v2/contracts/dependencies/openzeppelin/contracts/Ownable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/home/alexus/Desktop/development/ethereum/dao-treasury-managment/node_modules/@aave/protocol-v2/contracts/protocol/libraries/helpers/Errors.sol": {
+      "lastModificationDate": 1623276336995,
+      "contentHash": "f9f147c0810b2cf78866930180648be5",
+      "sourceName": "@aave/protocol-v2/contracts/protocol/libraries/helpers/Errors.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Errors"
+      ]
+    },
+    "/home/alexus/Desktop/development/ethereum/dao-treasury-managment/node_modules/@aave/protocol-v2/contracts/dependencies/openzeppelin/contracts/Context.sol": {
+      "lastModificationDate": 1623276336995,
+      "contentHash": "75b8edc002827d185f61feb07ade1595",
+      "sourceName": "@aave/protocol-v2/contracts/dependencies/openzeppelin/contracts/Context.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/home/alexus/Desktop/development/ethereum/dao-treasury-managment/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1624576750223,
+      "contentHash": "e0a41531d159d3a32f84b7a3ecf9fabb",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/home/alexus/Desktop/development/ethereum/dao-treasury-managment/node_modules/@openzeppelin/contracts/token/ERC20/SafeERC20.sol": {
+      "lastModificationDate": 1624576750379,
+      "contentHash": "33e22842646d746e5c4124c2fdc051aa",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "../../math/SafeMath.sol",
+        "../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "/home/alexus/Desktop/development/ethereum/dao-treasury-managment/node_modules/@openzeppelin/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1624576750383,
+      "contentHash": "e03e12206057e809eb76c5f681170c32",
+      "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/home/alexus/Desktop/development/ethereum/dao-treasury-managment/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1624576749891,
+      "contentHash": "7aa46886ff5abe7515496208a5e2ce5a",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/home/alexus/Desktop/development/ethereum/dao-treasury-managment/node_modules/@aave/protocol-v2/contracts/misc/interfaces/IWETHGateway.sol": {
+      "lastModificationDate": 1624576755183,
+      "contentHash": "f2e69c5f1f54e6e291f8d6eedaca6618",
+      "sourceName": "@aave/protocol-v2/contracts/misc/interfaces/IWETHGateway.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "IWETHGateway"
+      ]
+    },
+    "/home/alexus/Desktop/development/ethereum/dao-treasury-managment/node_modules/@aave/protocol-v2/contracts/misc/interfaces/IWETH.sol": {
+      "lastModificationDate": 1624576755179,
+      "contentHash": "ab2af8b1175a4e9dfdf3f7754dbee9a5",
+      "sourceName": "@aave/protocol-v2/contracts/misc/interfaces/IWETH.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "IWETH"
+      ]
+    },
+    "/home/alexus/Desktop/development/ethereum/dao-treasury-managment/contracts/interfaces/IWETH.sol": {
+      "lastModificationDate": 1624581385244,
+      "contentHash": "3c3affd242f0451ca4a3324f2ca9af09",
+      "sourceName": "contracts/interfaces/IWETH.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "IWETH"
+      ]
+    }
+  }
+}

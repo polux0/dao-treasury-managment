@@ -1,0 +1,31 @@
+await treasury.deposit(100000000000000000)
+treasury.deposit(100000000000000000)
+const treasury = await Treasury.attach("0x5cbdb1Bbc89492D20409b135C1E9DB3BC8eA0301")
+const treasury = await Treasury.deposit(100000000000000000)
+const Treasury = await ethers.getContractFactory("Treasury")
+await treasury.getAddressProviderList();
+const treasury = await Treasury.attach("0xF0107334c0D8838641e9D3Ba76175C5987aB5287")
+web3.sha3("0x000000000000000000000000bf7ae162ddf40bd2f6510f80ab05ff33b550a36b")
+const addresses = await token.getAddressProviderList();
+const addresses = await treasury.getAddressProviderList();
+const addresses = await treasury.getAddressProviderList()l
+const addresses = await token.getAddressProviderList()
+const token = await Treasury.attach("0x23A06704403604b7395b5D5949141887b1D2fac4")
+const token = await Token.attach("0x23A06704403604b7395b5D5949141887b1D2fac4")
+const Treasury = await ethers.getContractFactory("Treasury")
+a
+console.log(a)
+const a = await treasury.getAddressProviderList()
+await treasury.getAddressProviderList()
+await (treasury.getAddressProviderList()).toString()
+await treasury.getAddressProviderList()
+const treasury = await Treasury.attach("0x66e714C816D8a66D0b6F2876AB9f02F100686ea9")
+const Treasury = await ethers.getContractFactory("Treasury")
+const Treasury = await ethers.getContractFactory("0x66e714C816D8a66D0b6F2876AB9f02F100686ea9")
+accounts = await ethers.provider.listAccounts()
+accounts
+await addresses.getAddressProviderList()
+addresses.getAddressProviderList()
+const addresses = await Treasury.attach("0xeF783E2F558867C541499fBb33116c1F0D77D93D")
+const Treasury = await ethers.getContractFactory("Treasury")
+const Treasury = await etheres.getContractFactory("Treasury")
